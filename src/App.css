@@ -1,0 +1,183 @@
+.App {
+  text-align: left;
+  background-color: #f4f4f4;
+}
+
+.AppBar {
+    height: inherit;
+    width: 90%;
+    position: relative;
+    margin: .5em auto;
+}
+
+.App-header {
+  background-color: #f4f4f4;
+  height: 35px;
+  border-bottom: outset;
+  border-color: #f2f3f4;
+
+  padding-bottom: 12px;
+  color: white;
+  text-align: text;
+
+}
+
+.App-intro {
+  font-size: large;
+  text-align: center;
+  background-color: white;
+  padding: 0px;
+
+}
+
+.container {
+font-family: sans-serif;
+
+font-size: 40px;
+/* text-align: 500; */
+height:auto;
+width: auto;
+background-color: white;
+padding: 189px;
+color: grey;
+}
+
+.search {
+font-size: large;
+text-align: center;
+align-items: center;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+font-family: sans-serif;
+height: 11.25em ! important;
+width: auto;
+background-color: white;
+padding-top: 1em;
+padding-bottom: 1.75em;
+color: black;
+}
+
+.search form {
+    height: 100%;
+    width: 100%;
+}
+
+input#searchInput {
+    height: 5em;
+    width: 25em;
+    font-size: xx-large;
+}
+
+#search>input[name="search"], #search>input[name="create"] {
+    display: none;
+}
+
+/*** NAVIGATION ***/
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left {
+  width: 20%;
+  min-width: 130px;
+}
+.nav-right {
+  width: 10%;
+  margin-left: auto;
+  min-width: 130px;
+}
+
+.nav .link {
+  border: none;
+	background: transparent;
+	margin-right: 1em;
+  display: inline-block;
+  width: 45px;
+}
+
+.nav .link img {
+		height: 35px;
+		text-align: left;
+	  margin-right: 5em !important;
+	  cursor: pointer;
+}
+
+/* Navigation Search */
+.nav-search {
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+}
+.nav-search input[type=search] {
+	width: 15px;
+	padding-left: 10px;
+	color: transparent;
+	cursor: pointer;
+	background: #ededed url(http://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+	border: solid 1px #ccc;
+	padding: 9px 10px 9px 32px;
+
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	border-radius: 10em;
+
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	transition: all .5s;
+}
+.nav-search input[type=search]:hover {
+	background-color: #fff;
+}
+.nav-search input[type=search]:focus {
+	width: 130px;
+	padding-left: 32px;
+	color: #000;
+  background-color: #fff;
+	border-color: #66CC75;
+	cursor: auto;
+  -webkit-box-shadow: 0 0 5px rgba(109,207,246,.5);
+-moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
+box-shadow: 0 0 5px rgba(109,207,246,.5);
+outline: 0;
+}
+.nav-search input:-moz-placeholder {
+	color: transparent;
+}
+.nav-search input::-webkit-input-placeholder {
+	color: transparent;
+}
+.nav-search input:-moz-placeholder {
+	color: #999;
+}
+.nav-search input::-webkit-input-placeholder {
+	color: #999;
+}
+
+.realityTable {
+  font: 12px sans-serif;
+  color: #000;
+  margin: 30px auto;
+  max-width: 600px;
+}
+
+.realityTable td,
+.realityTable th {
+  border: 1px solid black;
+}
+
+.editReality {
+  font: 12px sans-serif;
+  color: #000;
+  text-align: left;
+  max-width: 400px;
+  margin: 30px auto;
+}
+
+.editReality div {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 10px;
+}

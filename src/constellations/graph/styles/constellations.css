@@ -1,0 +1,97 @@
+#constellationContainer:focus, #constellationContainer :focus {
+  outline: none;
+}
+
+a.nodeLabel {
+  cursor: pointer;
+}
+
+a.nodeLabel:hover {
+  text-decoration: none;
+}
+
+a.nodeLabel text tspan {
+  font-family: Helvetica, Arial, sans-serif;  
+}
+
+.edge text {
+  font-family: Helvetica, Arial, sans-serif;  
+}
+
+#constellationContainer:hover .edge:not(.dragging) text {
+  display: none;
+}
+
+#constellationContainer:hover .edge:hover text, .edge.selected text, .edge.highlighted text {
+  display: inline;
+}
+
+.edge:hover text.link {
+  cursor: pointer;
+}
+
+.caption {
+  font-family: Helvetica, Arial, sans-serif;
+  cursor: default;
+}
+
+/* from annotations app */
+
+#constellationContainer {
+  position: relative;
+}
+
+#constellationGraphContainer {
+  position: relative;
+  border: 1px solid #f8f8f8;
+}
+
+#constellationHeader {
+  margin-bottom: 10px;  
+}
+
+#constellationTitle {
+  font-size: 50px;
+  font-weight: 300;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+#constellationTitle.constellationTitleInput {
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+#constellationTitle a {
+    text-decoration: none;
+    color: black;
+}
+
+#constellationTitleInput {
+  border: 1px solid #ccc;
+  padding: 0;
+  width: 100%;
+}
+
+#constellationByLine {
+  margin-right: 18px;
+}
+
+#constellationDate {
+  color: #888;
+}
+
+#constellationGraphLinks {
+  margin-left: 2px;
+}
+
+#constellationGraphLinks a {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#constellationGraphLinks form {
+  display: inline-block;
+}
